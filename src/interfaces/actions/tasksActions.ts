@@ -1,3 +1,5 @@
+import {ITask} from '..';
+
 export interface ISetLoadingAction {
   loading: boolean;
 }
