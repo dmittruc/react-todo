@@ -1,12 +1,12 @@
 import {Provider} from 'react-redux';
 import './App.css';
-import TasksPage from './pages/TasksPage';
+import SignInPage from './pages/SignInPage';
 import store from './store';
 
 const App = () => {
   return (
     <Provider store={store}>
-      <TasksPage />
+      <SignInPage />
     </Provider>
   );
 };
